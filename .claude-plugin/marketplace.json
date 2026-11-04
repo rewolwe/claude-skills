@@ -1,78 +1,53 @@
 {
   "name": "rewolwe-skills",
+  "description": "Personal skills: Emil Kowalski design skills, ComposioHQ awesome-claude-skills, and install-from-github.",
   "owner": {
     "name": "rewolwe",
     "email": "wibeshow@gmail.com"
   },
   "plugins": [
     {
-      "name": "my-skills",
-      "source": "./plugins/my-skills",
-      "description": "Personal skills installed from GitHub links, plus the install-from-github skill.",
-      "version": "1.0.0",
-      "author": {
-        "name": "rewolwe"
-      },
-      "skills": [
-        "./skills/install-from-github"
-      ]
-    },
-    {
-      "name": "emil-design-skills",
-      "source": "./plugins/emil-design-skills",
-      "description": "Emil Kowalski's design engineering skills (animation, motion, UI polish).",
-      "version": "1.0.0",
+      "name": "rewolwe-skills",
+      "description": "Personal skills collection: Emil Kowalski design engineering skills, curated ComposioHQ skills, and install-from-github for adding more from GitHub links.",
+      "version": "2.0.0",
+      "source": "./",
       "skills": [
         "./skills/animate",
         "./skills/animate-expo",
         "./skills/animation-performance",
         "./skills/animation-vocabulary",
         "./skills/apple-design",
-        "./skills/ask-sonner",
-        "./skills/break-ui",
-        "./skills/choreograph",
-        "./skills/emil-design-eng",
-        "./skills/find-animation-opportunities",
-        "./skills/improve-animations",
-        "./skills/mobile-native",
-        "./skills/pick-ui-library",
-        "./skills/prototype",
-        "./skills/remove-animations",
-        "./skills/review-animations",
-        "./skills/write-swift"
-      ],
-      "author": {
-        "name": "Emil Kowalski"
-      },
-      "homepage": "https://github.com/emilkowalski/skills",
-      "repository": "https://github.com/emilkowalski/skills",
-      "license": "MIT"
-    },
-    {
-      "name": "composio-skills",
-      "source": "./plugins/composio-skills",
-      "description": "Curated skills from ComposioHQ/awesome-claude-skills.",
-      "version": "1.0.0",
-      "skills": [
         "./skills/artifacts-builder",
+        "./skills/ask-sonner",
         "./skills/brand-guidelines",
+        "./skills/break-ui",
         "./skills/canvas-design",
         "./skills/changelog-generator",
+        "./skills/choreograph",
         "./skills/competitive-ads-extractor",
         "./skills/connect",
         "./skills/connect-apps",
         "./skills/content-research-writer",
         "./skills/developer-growth-analysis",
         "./skills/domain-name-brainstormer",
+        "./skills/emil-design-eng",
         "./skills/file-organizer",
+        "./skills/find-animation-opportunities",
         "./skills/image-enhancer",
+        "./skills/improve-animations",
+        "./skills/install-from-github",
         "./skills/internal-comms",
         "./skills/invoice-organizer",
         "./skills/langsmith-fetch",
         "./skills/lead-research-assistant",
         "./skills/mcp-builder",
         "./skills/meeting-insights-analyzer",
+        "./skills/mobile-native",
+        "./skills/pick-ui-library",
+        "./skills/prototype",
         "./skills/raffle-winner-picker",
+        "./skills/remove-animations",
+        "./skills/review-animations",
         "./skills/skill-creator",
         "./skills/skill-share",
         "./skills/slack-gif-creator",
@@ -80,15 +55,22 @@
         "./skills/theme-factory",
         "./skills/twitter-algorithm-optimizer",
         "./skills/webapp-testing",
+        "./skills/write-swift",
         "./skills/youtube-downloader"
       ],
       "author": {
-        "name": "ComposioHQ"
+        "name": "rewolwe",
+        "email": "wibeshow@gmail.com"
       },
-      "homepage": "https://github.com/ComposioHQ/awesome-claude-skills",
-      "repository": "https://github.com/ComposioHQ/awesome-claude-skills",
-      "license": "See individual skills"
+      "homepage": "https://github.com/rewolwe/claude-skills",
+      "repository": "https://github.com/rewolwe/claude-skills",
+      "license": "See individual skills",
+      "keywords": [
+        "skills",
+        "design",
+        "animation",
+        "ui"
+      ]
     }
-  ],
-  "description": "Personal skills: Emil Kowalski design skills and ComposioHQ awesome-claude-skills."
+  ]
 }
