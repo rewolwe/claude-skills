@@ -1,0 +1,21 @@
+{
+  "name": "rewolwe-skills",
+  "owner": {
+    "name": "rewolwe"
+  },
+  "plugins": [
+    {
+      "name": "emil-design-skills",
+      "source": "./plugins/emil-design-skills",
+      "description": "Emil Kowalski's design engineering skills (animation, motion, UI polish).",
+      "version": "1.0.0"
+    },
+    {
+      "name": "composio-skills",
+      "source": "./plugins/composio-skills",
+      "description": "Curated skills from ComposioHQ/awesome-claude-skills.",
+      "version": "1.0.0"
+    }
+  ],
+  "description": "Personal skills: Emil Kowalski design skills and ComposioHQ awesome-claude-skills."
+}
