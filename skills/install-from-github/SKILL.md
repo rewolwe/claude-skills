@@ -5,7 +5,7 @@ description: Install a skill, plugin or MCP connector from a GitHub link into th
 
 # Install from GitHub
 
-The user keeps every extra skill in the private repo **rewolwe/claude-skills**, which is
+The user keeps every extra skill in the public repo **rewolwe/claude-skills**, which is
 added to their claude.ai account as a plugin marketplace (`rewolwe-skills`). The repo root is a single plugin, also named `rewolwe-skills`; anything pushed into its `skills/` folder reaches all of their sessions after the marketplace syncs.
 Never install only into `~/.claude/skills` — that dies with the container.
 
@@ -30,8 +30,10 @@ Never install only into `~/.claude/skills` — that dies with the container.
    - *A remote MCP connector* (an HTTPS MCP endpoint): add it to `.mcp.json` at the repo root
      under `mcpServers` with `"type": "http"` and its `url`. Never put secrets in the repo; if it
      needs a key, tell the user to add it as a custom connector in claude.ai instead.
-   - *A local-only (stdio) MCP server*: it cannot run in claude.ai cloud — say so and suggest
-     running it on their own machine.
+   - *A local (stdio) MCP server* (`npx`/`uvx`/`docker` command): it works only in Claude Code
+     sessions (CLI or claude.ai/code cloud), not in claude.ai chat. Add it to `.mcp.json` with
+     `command`/`args`; env vars as `${VAR}` placeholders, with the values saved by the user in
+     the cloud environment's secrets. Say that limitation to the user.
    - Skip anything that duplicates a skill they already have; say which.
 5. **Register.** Add the new paths to the `skills` list of the single plugin entry in
    `.claude-plugin/marketplace.json` (keep it sorted) and bump its `version` (patch).
