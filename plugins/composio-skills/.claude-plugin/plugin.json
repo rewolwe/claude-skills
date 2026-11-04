@@ -29,7 +29,10 @@
     "./skills/tailored-resume-generator",
     "./skills/theme-factory",
     "./skills/twitter-algorithm-optimizer",
-    "./skills/video-downloader",
-    "./skills/webapp-testing"
-  ]
+    "./skills/webapp-testing",
+    "./skills/youtube-downloader"
+  ],
+  "author": {
+    "name": "ComposioHQ"
+  }
 }

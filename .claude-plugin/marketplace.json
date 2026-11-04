@@ -1,20 +1,81 @@
 {
   "name": "rewolwe-skills",
   "owner": {
-    "name": "rewolwe"
+    "name": "rewolwe",
+    "email": "wibeshow@gmail.com"
   },
   "plugins": [
     {
       "name": "emil-design-skills",
       "source": "./plugins/emil-design-skills",
       "description": "Emil Kowalski's design engineering skills (animation, motion, UI polish).",
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "skills": [
+        "./skills/animate",
+        "./skills/animate-expo",
+        "./skills/animation-performance",
+        "./skills/animation-vocabulary",
+        "./skills/apple-design",
+        "./skills/ask-sonner",
+        "./skills/break-ui",
+        "./skills/choreograph",
+        "./skills/emil-design-eng",
+        "./skills/find-animation-opportunities",
+        "./skills/improve-animations",
+        "./skills/mobile-native",
+        "./skills/pick-ui-library",
+        "./skills/prototype",
+        "./skills/remove-animations",
+        "./skills/review-animations",
+        "./skills/write-swift"
+      ],
+      "author": {
+        "name": "Emil Kowalski"
+      },
+      "homepage": "https://github.com/emilkowalski/skills",
+      "repository": "https://github.com/emilkowalski/skills",
+      "license": "MIT"
     },
     {
       "name": "composio-skills",
       "source": "./plugins/composio-skills",
       "description": "Curated skills from ComposioHQ/awesome-claude-skills.",
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "skills": [
+        "./skills/artifacts-builder",
+        "./skills/brand-guidelines",
+        "./skills/canvas-design",
+        "./skills/changelog-generator",
+        "./skills/competitive-ads-extractor",
+        "./skills/connect",
+        "./skills/connect-apps",
+        "./skills/content-research-writer",
+        "./skills/developer-growth-analysis",
+        "./skills/domain-name-brainstormer",
+        "./skills/file-organizer",
+        "./skills/image-enhancer",
+        "./skills/internal-comms",
+        "./skills/invoice-organizer",
+        "./skills/langsmith-fetch",
+        "./skills/lead-research-assistant",
+        "./skills/mcp-builder",
+        "./skills/meeting-insights-analyzer",
+        "./skills/raffle-winner-picker",
+        "./skills/skill-creator",
+        "./skills/skill-share",
+        "./skills/slack-gif-creator",
+        "./skills/tailored-resume-generator",
+        "./skills/theme-factory",
+        "./skills/twitter-algorithm-optimizer",
+        "./skills/webapp-testing",
+        "./skills/youtube-downloader"
+      ],
+      "author": {
+        "name": "ComposioHQ"
+      },
+      "homepage": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "repository": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "license": "See individual skills"
     }
   ],
   "description": "Personal skills: Emil Kowalski design skills and ComposioHQ awesome-claude-skills."

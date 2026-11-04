@@ -21,5 +21,8 @@
     "./skills/remove-animations",
     "./skills/review-animations",
     "./skills/write-swift"
-  ]
+  ],
+  "author": {
+    "name": "Emil Kowalski"
+  }
 }
