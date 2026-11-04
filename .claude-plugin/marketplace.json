@@ -1,16 +1,19 @@
 {
   "name": "rewolwe-skills",
-  "description": "Personal skills: Emil Kowalski design skills, ComposioHQ awesome-claude-skills, and install-from-github.",
   "owner": {
     "name": "rewolwe",
     "email": "wibeshow@gmail.com"
+  },
+  "metadata": {
+    "description": "Personal skills: Emil Kowalski design skills, ComposioHQ awesome-claude-skills, and install-from-github.",
+    "version": "2.1.0"
   },
   "plugins": [
     {
       "name": "rewolwe-skills",
       "description": "Personal skills collection: Emil Kowalski design engineering skills, curated ComposioHQ skills, and install-from-github for adding more from GitHub links.",
-      "version": "2.0.0",
       "source": "./",
+      "strict": false,
       "skills": [
         "./skills/animate",
         "./skills/animate-expo",
@@ -57,19 +60,6 @@
         "./skills/webapp-testing",
         "./skills/write-swift",
         "./skills/youtube-downloader"
-      ],
-      "author": {
-        "name": "rewolwe",
-        "email": "wibeshow@gmail.com"
-      },
-      "homepage": "https://github.com/rewolwe/claude-skills",
-      "repository": "https://github.com/rewolwe/claude-skills",
-      "license": "See individual skills",
-      "keywords": [
-        "skills",
-        "design",
-        "animation",
-        "ui"
       ]
     }
   ]

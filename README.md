@@ -20,4 +20,4 @@ In claude.ai: Customize → Plugins → add marketplace `rewolwe/claude-skills`.
 ## Repo setup
 - `CLAUDE.md` — how Claude should maintain this repo.
 - `.claude/settings.json` — enables the plugin and pre-approves install commands when the repo is attached to a session.
-- `.mcp.json` — MCP servers (no secrets; tokens go into environment secrets).
+- `.mcp.json` — add when an MCP server is needed (no secrets; tokens go into environment secrets).

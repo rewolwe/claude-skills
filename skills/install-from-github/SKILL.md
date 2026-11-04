@@ -28,7 +28,8 @@ Never install only into `~/.claude/skills` — that dies with the container.
      they can add that repo directly in claude.ai (Customize → Plugins) — that keeps upstream
      updates. If they prefer, vendor its skills into `skills/` as above.
    - *A remote MCP connector* (an HTTPS MCP endpoint): add it to `.mcp.json` at the repo root
-     under `mcpServers` with `"type": "http"` and its `url`. Never put secrets in the repo; if it
+     under `mcpServers` with `"type": "http"` and its `url` (create the file if missing; then
+     re-check that the claude.ai marketplace still syncs). Never put secrets in the repo; if it
      needs a key, tell the user to add it as a custom connector in claude.ai instead.
    - *A local (stdio) MCP server* (`npx`/`uvx`/`docker` command): it works only in Claude Code
      sessions (CLI or claude.ai/code cloud), not in claude.ai chat. Add it to `.mcp.json` with
@@ -36,7 +37,9 @@ Never install only into `~/.claude/skills` — that dies with the container.
      the cloud environment's secrets. Say that limitation to the user.
    - Skip anything that duplicates a skill they already have; say which.
 5. **Register.** Add the new paths to the `skills` list of the single plugin entry in
-   `.claude-plugin/marketplace.json` (keep it sorted) and bump its `version` (patch).
+   `.claude-plugin/marketplace.json` (keep it sorted) and bump `metadata.version` (patch).
+   Keep the manifest in the same minimal shape as anthropics/skills (`source: "./"`,
+   `strict: false`, no extra per-plugin fields) — claude.ai sync is stricter than the CLI.
    Add a line to README.md with the source URL. Run `claude plugin validate .`.
 6. **Commit and push** to `main` (fetch first). Verify `git ls-remote origin main` matches HEAD.
 7. **Also copy** the new skills into `~/.claude/skills/` so they work in this session right away.
