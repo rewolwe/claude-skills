@@ -6,6 +6,18 @@
   },
   "plugins": [
     {
+      "name": "my-skills",
+      "source": "./plugins/my-skills",
+      "description": "Personal skills installed from GitHub links, plus the install-from-github skill.",
+      "version": "1.0.0",
+      "author": {
+        "name": "rewolwe"
+      },
+      "skills": [
+        "./skills/install-from-github"
+      ]
+    },
+    {
       "name": "emil-design-skills",
       "source": "./plugins/emil-design-skills",
       "description": "Emil Kowalski's design engineering skills (animation, motion, UI polish).",

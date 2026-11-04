@@ -1,0 +1,11 @@
+{
+  "name": "my-skills",
+  "version": "1.0.0",
+  "description": "Personal skills, installed on request from GitHub links. Includes install-from-github.",
+  "author": {
+    "name": "rewolwe"
+  },
+  "skills": [
+    "./skills/install-from-github"
+  ]
+}
