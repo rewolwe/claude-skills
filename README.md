@@ -6,6 +6,7 @@ Sources:
 - Emil Kowalski — https://github.com/emilkowalski/skills (MIT, see LICENSE-emil-kowalski)
 - ComposioHQ — https://github.com/ComposioHQ/awesome-claude-skills (see each skill's license)
 - Hardik Pandya — stop-slop — https://github.com/hardikpandya/stop-slop (MIT, see skills/stop-slop/LICENSE)
+- Jake Schincariol — youtube-agent-skill (yt-audit, yt-chapters, yt-comment, yt-edit, yt-package, yt-plan, yt-retention, yt-script, yt-seo, yt-shorts, yt-viral) — https://github.com/jakeschincariol/youtube-agent-skill (MIT, see skills/yt-script/LICENSE-youtube-agent-skill)
 - `install-from-github` — installs more skills from GitHub links into this repo
 
 Taste skill is installed separately from https://github.com/leonxlnx/taste-skill.
