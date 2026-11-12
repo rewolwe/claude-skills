@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Personal skills: Emil Kowalski design skills, ComposioHQ awesome-claude-skills, and install-from-github.",
-    "version": "2.1.3"
+    "version": "2.1.4"
   },
   "plugins": [
     {
@@ -36,6 +36,7 @@
         "./skills/emil-design-eng",
         "./skills/file-organizer",
         "./skills/find-animation-opportunities",
+        "./skills/humanizer",
         "./skills/image-enhancer",
         "./skills/improve-animations",
         "./skills/install-from-github",

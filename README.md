@@ -8,6 +8,7 @@ Sources:
 - Hardik Pandya — stop-slop — https://github.com/hardikpandya/stop-slop (MIT, see skills/stop-slop/LICENSE)
 - Jake Schincariol — youtube-agent-skill (yt-audit, yt-chapters, yt-comment, yt-edit, yt-package, yt-plan, yt-retention, yt-script, yt-seo, yt-shorts, yt-viral) — https://github.com/jakeschincariol/youtube-agent-skill (MIT, see skills/yt-script/LICENSE-youtube-agent-skill)
 - nextlevelbuilder — ui-ux-pro-max — https://github.com/nextlevelbuilder/ui-ux-pro-max-skill (MIT, see skills/ui-ux-pro-max/LICENSE)
+- Siqi Chen (blader) — humanizer — https://github.com/blader/humanizer (MIT, see skills/humanizer/LICENSE)
 - `install-from-github` — installs more skills from GitHub links into this repo
 
 Taste skill is installed separately from https://github.com/leonxlnx/taste-skill.
