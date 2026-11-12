@@ -11,6 +11,7 @@ Sources:
 - Siqi Chen (blader) — humanizer — https://github.com/blader/humanizer (MIT, see skills/humanizer/LICENSE)
 - Ayoub Ghriss (ayghri) — i-have-adhd (skill only, without the always-on hook) — https://github.com/ayghri/i-have-adhd (MIT, see skills/i-have-adhd/LICENSE)
 - Corey Haines — marketingskills (53 marketing skills, without tools/clis) — https://github.com/coreyhaines31/marketingskills (MIT, LICENSE in each skill folder)
+- AgriciDaniel — claude-shorts (shorts: long video → vertical clips with captions; needs ffmpeg, Python venv, Node/Remotion via setup.sh, bash/WSL) — https://github.com/AgriciDaniel/claude-shorts (MIT, see skills/shorts/LICENSE-claude-shorts)
 - `install-from-github` — installs more skills from GitHub links into this repo
 
 Taste skill is installed separately from https://github.com/leonxlnx/taste-skill.
